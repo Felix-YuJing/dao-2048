@@ -1,0 +1,10 @@
+image: daocloud/alpine:latest
+
+services: 
+    - nginx
+
+install:
+    - echo "2048"
+
+script:
+    - echo "2048"
